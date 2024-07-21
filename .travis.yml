@@ -12,9 +12,9 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "frontend"
-  env: "Docker-env"
+  env: "Frontend-env"
   bucker_name: "elasticbeanstalk-us-east-1-730335380732"
-  bucker_path: "docker"
+  bucker_path: "frontend"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
